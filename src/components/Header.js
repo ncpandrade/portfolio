@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="bg-bdazzled-blue">
     <section className="bg-bdazzled-blue">
-    <h1 id="about">Who am I?</h1>
+    <h1 id="about">Nadine Paez Andrade</h1>
   </section>
   </div>
   );
