@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./styles/tailwind.css";
 import Header from "./components/Header";
 import Nav from './components/Nav'
+import ContactForm from './components/pages/Contact';
 import Project from "./components/Project";
 import Footer from "./components/Footer";
 
@@ -22,7 +23,7 @@ function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
   return (
-    <div>
+    <div id="app container">
       <Header>
       <Nav
         categories={categories}
@@ -32,7 +33,7 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       </Header>
-    
+    <Footer />
     </div>
   );
 }

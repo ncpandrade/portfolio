@@ -1,9 +1,10 @@
 import React from 'react';
-import useWindowDimensions from "../components/hooks/getWindowDimensions";
+import useWindowDimensions from "../hooks/getWindowDimensions";
 
 function About() {
 
   const { width } = useWindowDimensions();
+
 
   return (
     <div className="w-full min-h-screen bg-middle-blue-green">
@@ -12,6 +13,11 @@ function About() {
         <p className="font-semibold font-dancing text-5xl leading-none"> Hi, </p>
         <p className="font-Dancing text-6xl"> I am Nadine </p>
     </div>
+    <div className="justify-self-start self-center h-40 w-full flex items-center justify-center">
+    <img
+      className="h-32 w-32 rounded-full object-cover shadow-xl"
+      src={require("../../assets/my-picture.png")} />
+        </div>
     <div className="mt-2 self-center">
         <p className="text-xl font-serif font-semibold tracking-wider uppercase"> FullStack Web Developer</p>
         <p className="text-gray-600 text-lg font-semibold text-justify"> based in the DMV area, USA </p>
