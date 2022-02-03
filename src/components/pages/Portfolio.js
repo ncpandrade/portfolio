@@ -5,6 +5,22 @@ function Portfolio() {
   //save projects as objects in array
   const projects = [
     {
+      title: "CentralBark",
+      description: "An app to get connected to other pet parents",
+      img: {
+        srcId: "pet",
+        alt: "homepage of CentralBark app",
+      },
+      deployed: {
+        href: "https://centralbark.herokuapp.com/",
+        text: "visit CentralBark!",
+      },
+      repo: {
+        href: "https://github.com/ncpandrade/central-bark",
+        text: "Github Repository",
+      },
+    },
+    {
       title: "Contactless Menu",
       description: "An app for contactless menu ordering.",
       img: {
